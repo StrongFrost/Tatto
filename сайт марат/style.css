@@ -1,0 +1,80 @@
+html {
+  background: #cd9c00;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h4 {
+	text-align: center;
+}
+header {
+	/*border: 1px solid black; делает рамки*/
+	border-radius: 10px 10 px 0 0;
+	margin-top: 10px;
+	/*background-image: url(img/header_fon.png);*/
+	min-height: 120px;
+	line-height: 120px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.8em;
+}
+body {
+	display: flex; 
+	flex-direction: column; 
+	height: 100%;
+	margin: 0 auto; 
+}
+main {
+	flex: 1 0 auto;
+	padding-bottom: 0px;
+}
+footer {
+	width: 100%;
+	background-image: url(img/footFon.png);
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	color: black;
+	font-size: 19px;
+	flex: 0 0 auto;
+	position : fixed;
+	height : auto;
+	bottom : 0;
+}
+footer a {
+	color: black;
+	font-size: 19px;
+	margin-left: 10px;
+}
+footer nav a:hover{
+	border-bottom: 1px solid white;
+}
+.contacts {
+	text-align: center;
+	margin-bottom: 14px;
+}
+.news {
+	/*border: 1px solid black; делает рамки*/
+	text-align: left;
+	background: #dedede;
+	float: left;
+	margin-right: 10px;
+	max-width: 350px;
+	min-width: 200px;
+	min-height: 250px;
+	max-height: 250px;
+	font-size: 1.2em;
+}
+.text {
+	border: 1px solid orange;
+	text-align: center;
+	min-height: 250px;
+	max-height: 250px;
+	margin-left: 10px;
+	font-size: 1.3em;
+	background-image: url(img/header_fon.png);
+}
